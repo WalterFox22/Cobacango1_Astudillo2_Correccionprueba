@@ -69,4 +69,5 @@ public class Main {
         hotel.setNum_habitaciones(0);
         hotel.setPrecio_noche(null);
     }
+
 }
