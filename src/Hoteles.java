@@ -64,5 +64,4 @@ public class Hoteles {
                 ", Numero de habitaciones=" + num_habitaciones +
                 ", Precio por noche=" + precio_noche);
     }
-
 }
