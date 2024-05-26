@@ -55,4 +55,14 @@ public class Hoteles {
     public void setPrecio_noche(Double precio_noche) {
         this.precio_noche = precio_noche;
     }
+
+    public void imprimirInformacion() {
+        System.out.println("               Hoteles         " +
+                "Nombre='" + nombre + '\'' +
+                ", Direccion='" + direccion + '\'' +
+                ", Estrellas=" + estrellas +
+                ", Numero de habitaciones=" + num_habitaciones +
+                ", Precio por noche=" + precio_noche);
+    }
+
 }
