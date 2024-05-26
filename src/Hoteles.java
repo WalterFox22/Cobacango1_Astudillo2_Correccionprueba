@@ -8,6 +8,7 @@ public class Hoteles {
     public Hoteles() {
     }
 
+    //Constructor es un método especial que se utiliza para inicializar objetos
     public Hoteles(String nombre, String direccion, int estrellas, int num_habitaciones, Double precio_noche) {
         this.nombre = nombre;
         this.direccion = direccion;
@@ -16,6 +17,7 @@ public class Hoteles {
         this.precio_noche = precio_noche;
     }
 
+    //Getters and Setters son métodos utilizados para acceder y modificar los campos privados de una clase
     public String getNombre() {
         return nombre;
     }
@@ -56,6 +58,7 @@ public class Hoteles {
         this.precio_noche = precio_noche;
     }
 
+    //Metodo Imprimir Informacion
     public void imprimirInformacion() {
         System.out.println("               Hoteles         " +
                 "Nombre='" + nombre + '\'' +
